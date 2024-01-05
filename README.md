@@ -35,8 +35,27 @@ A google sheet is created as a "quick-ref" for client but also serves as basis f
       messing around with a logo
   - Authorize credentials for a desktop application
   - in ? has OAuth 2.0 Client IDs and API keys
+  - have chosen OAuth as per instructions
+  - before saving credentials.json add to .env and push
+  - created ENV folder to organise credentials
 
-  before saving credentials.json add to .env and push
+  ```bash
+  pipenv install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+  ```
+
+error of pipenv.vendor.requirementslib.exceptions.RequirementError: Failed parsing requirement from '--upgrade'
+
+made quickstart.py
+copied and pasted text from:
+https://github.com/googleworkspace/python-samples/tree/main/drive/quickstart
+
+tried running, couldnt find credentials:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+-moved creds back to top level
+-check for personal info
+-push
+-merge branches
 
 - articles of use cases
 - talk to contact where can be used
