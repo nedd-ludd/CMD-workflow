@@ -7,12 +7,41 @@ A google sheet is created as a "quick-ref" for client but also serves as basis f
 - start writing notes and ideas
 - Add files to mini-project folder and write brief steps for reference
 - start new mini-project Google API Hello World
-  read the docs of use cases
-  talk to contact where can be used
+- made branch on github - googleAPI-hello
+- tried to switch to branch without pulling, did not match files
+- pulled and switched, checked with git branch, also bottom lefthand of vscode
+- create env file
+- read the docs - [quickstart](https://developers.google.com/drive/api/quickstart/python)
+- what packages and libraries off the top of my head?
+  - dotenv
+  - google client library
+- steps
+
+  - check Prerequisites
+    - Python 3.10.7 or greater [x]
+    - The pip package management tool [x]
+    - A Google Cloud project. [x] ----> NAME:test-creation , ID:test-creation
+    - A Google account with Google Drive enabled. [x]
+  - Set up your environment
+    - Enable the API
+  - Configure the OAuth consent screen
+    - pipenv
+    - app name is docs-workflow
+    - have no idea about some of the OAuth details - see screenshot
+    - also no idea for scopes
+    - _also no idea for test users_
+    - BUT added g-mail account
+    - review summary, is there a way to come back to this? surely?
+      messing around with a logo
+  - Authorize credentials for a desktop application
+  - in ? has OAuth 2.0 Client IDs and API keys
+
+  before saving credentials.json add to .env and push
+
+- articles of use cases
+- talk to contact where can be used
 
 Steps:
-Branch for API hello world
-get API keys from google
 pipenv
 .env file to ignore env
 set up env in file

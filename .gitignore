@@ -1,6 +1,7 @@
 .env
 
-
+# mini-project
+credentials.json
 
 # doclist-parser
 master.html
