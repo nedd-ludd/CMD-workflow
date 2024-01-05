@@ -16,3 +16,13 @@ hello world tutorial for google python SDK
 
 naming conventions? how do these affect things
 why have they chosen this set up, are there any other alternatives
+
+## Mini-Project doclist-parser
+
+Interested in collecting finished products, they are nested within folders
+In google docs, search for extensions of .png
+brings back list of docs
+want the share>copylink address for all files
+dev tools copy all html
+files.py finds names of files and unique id, then can generate the link
+outputs to csv, could copy and paste.
